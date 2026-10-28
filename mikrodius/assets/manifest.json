@@ -1,0 +1,49 @@
+{
+  "_chunk-CbXtAM7H.js": {
+    "file": "chunk-CbXtAM7H.js",
+    "name": "rolldown-runtime"
+  },
+  "_chunk-CcADsVQK.js": {
+    "file": "chunk-CcADsVQK.js",
+    "name": "ui",
+    "imports": [
+      "_chunk-CbXtAM7H.js"
+    ]
+  },
+  "src/Provision.tsx": {
+    "file": "chunk-itzcGh8y.js",
+    "name": "Provision",
+    "src": "src/Provision.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-CbXtAM7H.js",
+      "_chunk-CcADsVQK.js",
+      "src/main.tsx"
+    ]
+  },
+  "src/Statistics.tsx": {
+    "file": "chunk-DkUonBKE.js",
+    "name": "Statistics",
+    "src": "src/Statistics.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-CbXtAM7H.js",
+      "_chunk-CcADsVQK.js",
+      "src/main.tsx"
+    ]
+  },
+  "src/main.tsx": {
+    "file": "mikrodius-BVitCcXF.js",
+    "name": "main",
+    "src": "src/main.tsx",
+    "isEntry": true,
+    "imports": [
+      "_chunk-CbXtAM7H.js",
+      "_chunk-CcADsVQK.js"
+    ],
+    "dynamicImports": [
+      "src/Provision.tsx",
+      "src/Statistics.tsx"
+    ]
+  }
+}
